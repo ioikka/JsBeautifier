@@ -1,0 +1,19 @@
+A simple java javascript formatter.
+Based on the idea found at http://stackoverflow.com/questions/18985/what-javascript-code-beautifier-can-i-use-via-the-command-line-on-windows-and-li
+
+Libraries used: 
+1. rhino1_7R4 
+2. http://jsbeautifier.org/beautify.js
+
+USAGE from console: java -jar jsbeautifier.jar script indentation
+
+example: java -jar jsbeautifier.jar "function ff() {return;}" 2
+
+USAGE from java code:
+public static String jsBeautify(String jsCode, int indentSize)
+
+LICENSE: you are free to use, modify the code as you like. 
+There's a lot of options to extend the functionality based on the input params of beautify.js.
+At the moment I don't need them so everything as simple as it could be.
+
+
